@@ -13,14 +13,18 @@
         android:theme="@style/Theme.FirstJetpack"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_latihan_selanjutnya"
+            android:theme="@style/Theme.FirstJetpack" />
+        <activity
             android:name=".CardnameActivity"
             android:exported="false"
             android:label="@string/title_activity_cardname"
             android:theme="@style/Theme.FirstJetpack" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LatihanSelanjutnyaActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.FirstJetpack">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

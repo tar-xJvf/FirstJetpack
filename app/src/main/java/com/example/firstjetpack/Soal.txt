@@ -1,0 +1,125 @@
+✅ Latihan 1: Kartu Profil Sederhana
+Deskripsi:
+Buat tampilan kartu profil sederhana yang terdiri dari:
+
+Nama pengguna
+
+Email pengguna
+
+Susun informasi ini secara vertikal (gunakan Column)
+Contoh UI:
+
+Nama: Budi Santoso
+Email: budi@example.com
+
+✅ Latihan 2: Daftar Produk Horizontal
+Deskripsi:
+Buat tampilan horizontal (Row) berisi daftar produk. Masing-masing produk cukup ditampilkan dengan teks nama produknya.
+
+Contoh UI:
+
+Produk A     Produk B     Produk C
+
+✅ Latihan 3: Kombinasi Row dan Column
+Deskripsi:
+Buat tampilan berikut:
+
+Gunakan Row di bagian luar
+
+Di dalam Row, buat dua buah Column
+
+Setiap Column memiliki 2 Text
+
+Contoh UI:
+
+[ Nama: Budi     Alamat: Jakarta ]
+[ Umur: 25       Status: Aktif   ]
+
+✅ Latihan 4: Layout Biodata
+Deskripsi:
+Buat tampilan biodata seperti berikut:
+
+Judul besar di atas: "Biodata"
+
+Gunakan Column untuk menampilkan data berikut:
+
+Nama
+
+Tanggal Lahir
+
+Jenis Kelamin
+
+Contoh UI:
+Biodata
+
+Nama: Ani Rahmawati
+Tanggal Lahir: 10 Oktober 2000
+Jenis Kelamin: Perempuan
+
+
+🔷 Latihan 5: Kartu Produk dengan Tombol Beli
+Deskripsi:
+Buat tampilan Card produk yang berisi:
+
+Nama produk
+
+Harga
+
+Tombol "Beli"
+
+Ketika tombol ditekan, tampilkan Toast atau log (print) “Produk dibeli: [Nama Produk]”.
+
+Contoh UI:
+
++---------------------------+
+| Nama Produk: Laptop      |
+| Harga: Rp 10.000.000     |
+| [ BELI ]                 |
++---------------------------+
+
+🔷 Latihan 6: Daftar Gambar dengan Nama
+Deskripsi:
+Tampilkan daftar gambar (boleh dari drawable lokal) dengan Column, setiap item berisi:
+
+Gambar produk (pakai Image)
+
+Nama produk
+
+Gunakan LazyColumn untuk menampilkan banyak gambar produk.
+
+Contoh UI:
+[📷] Kamera Canon
+[📷] Smartphone Samsung
+[📷] Headset JBL
+
+🔷 Latihan 7: Form Sederhana
+Deskripsi:
+Buat form input sederhana:
+
+TextField untuk nama
+
+TextField untuk email
+
+Tombol "Simpan"
+
+Ketika tombol ditekan, tampilkan Toast atau hasil input di layar (dengan Text)
+
+
+🔷 Latihan 8: Styling Layout
+Deskripsi:
+Buat tampilan profil seperti berikut, tapi dengan:
+
+Warna teks berbeda
+
+Ukuran font besar di nama
+
+Card dengan sudut membulat (rounded corners)
+
+Sedikit elevation
+
+Contoh UI:
++-------------------------------+
+| [Foto Profil]                |
+| Nama: Budi Santoso (bold)    |
+| Email: budi@example.com      |
++-------------------------------+
