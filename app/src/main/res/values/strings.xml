@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FirstJetpack</string>
+    <string name="title_activity_cardname">CardnameActivity</string>
 </resources>
