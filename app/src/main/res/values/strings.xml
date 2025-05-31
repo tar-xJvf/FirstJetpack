@@ -2,4 +2,7 @@
     <string name="app_name">FirstJetpack</string>
     <string name="title_activity_cardname">CardnameActivity</string>
     <string name="title_activity_latihan_selanjutnya">LatihanSelanjutnyaActivity</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
