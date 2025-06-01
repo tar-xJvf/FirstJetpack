@@ -123,3 +123,59 @@ Contoh UI:
 | Nama: Budi Santoso (bold)    |
 | Email: budi@example.com      |
 +-------------------------------+
+
+🧩 Latihan 9: Tampilan Daftar Kontak dengan Navigasi Detail
+Deskripsi:
+
+Buat daftar kontak menggunakan LazyColumn.
+
+Setiap item kontak memiliki nama, nomor, dan foto profil (gunakan icon vector atau gambar placeholder).
+
+Ketika item ditekan, navigasi ke layar detail yang menampilkan informasi lengkap kontak tersebut.
+
+Bonus:
+
+Tambahkan parameter navigasi seperti: name, number.
+
+🧩 Latihan 10: Form Registrasi dengan Validasi
+Deskripsi:
+
+Buat form registrasi sederhana:
+
+Nama
+
+Email
+
+Password
+
+Validasi input:
+
+Semua field wajib diisi
+
+Email harus valid (gunakan regex sederhana)
+
+Password minimal 6 karakter
+
+Jika valid, tampilkan data dengan Toast atau pindah ke screen "Berhasil".
+
+🧩 Latihan 11: Bottom Navigation
+Deskripsi:
+
+Implementasikan BottomNavigation dengan 3 item:
+
+Beranda
+
+Produk
+
+Profil
+
+Setiap tab menampilkan screen berbeda.
+
+🧩 Latihan 12: Card Produk dengan Navigasi & Detail
+Deskripsi:
+
+Tampilkan daftar produk dalam Card (nama, harga, dan gambar).
+
+Klik pada produk membuka detail screen.
+
+Detail screen menampilkan data lengkap produk (nama, harga, deskripsi, dan tombol beli).

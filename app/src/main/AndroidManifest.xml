@@ -13,14 +13,29 @@
         android:theme="@style/Theme.FirstJetpack"
         tools:targetApi="31">
         <activity
-            android:name=".navigation.HomeScreen"
+            android:name=".latihan12.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.FirstJetpack" />
         <activity
-            android:name=".navigation.DetailActivity"
+            android:name=".latihansepuluh.MainActivity"
             android:exported="false"
-            android:label="@string/title_activity_detail"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FirstJetpack" />
+        <activity
+            android:name=".latihansepuluh.SuccessActivity"
+            android:exported="false"
+            android:label="@string/title_activity_success"
+            android:theme="@style/Theme.FirstJetpack" />
+        <activity
+            android:name=".tampilandaftarkontak.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FirstJetpack" />
+        <activity
+            android:name=".navigation.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
             android:theme="@style/Theme.FirstJetpack" />
         <activity
             android:name=".LatihanSelanjutnyaActivity"
@@ -38,7 +53,7 @@
             android:label="@string/title_activity_cardname"
             android:theme="@style/Theme.FirstJetpack" />
         <activity
-            android:name=".navigation.MainActivity"
+            android:name=".latihan11.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.FirstJetpack">
             <intent-filter>
